@@ -103,7 +103,7 @@ def save(
             vega_version=vega_version,
             vegalite_version=vegalite_version,
             vegaembed_version=vegaembed_version,
-            embed_options=embed_options,
+            embed_options={'renderer':'svg'},
             json_kwds=json_kwds,
             **kwargs,
         )
